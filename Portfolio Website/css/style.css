@@ -188,8 +188,10 @@ span{
 }
 .sub-box:hover{
     /*     background: #c94141;*/
-    background: #c94141dd;
-    box-shadow: 18x 0px 87px 0px rgb(10 15 70 / 7%);
+    background: #ffffff;
+
+    /* issue with box-shadow */
+    box-shadow: 18x 0px 87px 0px rgb(10 15 70);
     border-radius: 12px;
     will-change: transform;
     transform: perspective(1000px) rotateX(4.80deg) rotateY(10.23deg) scale3d(1.05, 1.05,1.05);
