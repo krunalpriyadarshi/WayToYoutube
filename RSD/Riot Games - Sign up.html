@@ -1,0 +1,125 @@
+<!-- krunal's file: -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Riot Games</title>
+  <link rel="stylesheet" type="text/css" href="CSS/style_Kru.css">
+  <!-- boxicons.com site's remote access: To add icons and logos -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="signup">
+  <header class="whiteHeader">
+    <a href="Riot Games - Home.html" class="logo"><img src="Images\KruZ_Logo.png" alt="Kruz Logo"></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navlist">
+      <li><a href="Riot Games - Home.html">HOME</a></li>
+      <li><a href="Riot Games - Sales.html">SALES</a></li>
+      <li><a href="Riot Games - whoweare.html">ABOUT</a></li>
+    </ul>
+    <a href="Riot Games - Sign up.html" class="top-btn">Sign in</a>
+  </header>
+  <div class="container">
+    <header>Registration</header>
+
+    <form action="#">
+      <div class="form first">
+        <div class="details personal">
+          <span class="title">Personal Details</span>
+
+          <div class="fields">
+            <div class="input-field">
+              <label>Full Name</label>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-field">
+              <label>Date of Birth</label>
+              <input type="date" placeholder="Enter birth date" required>
+            </div>
+
+            <div class="input-field">
+              <label>Email</label>
+              <input type="text" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-field">
+              <label>Mobile Number</label>
+              <input type="number" placeholder="Enter mobile number" required>
+            </div>
+
+            <div class="input-field">
+              <label>Gender</label>
+              <select required>
+                <option disabled selected>Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+              </select>
+            </div>
+
+            <div class="input-field">
+              <label>Experience Level</label>
+              <input type="text" placeholder="Expert/ Moderate/ Noob" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="details ID">
+          <span class="title">Identity Details</span>
+
+          <div class="fields">
+            <div class="input-field">
+              <label>ID Type</label>
+              <input type="text" placeholder="Enter ID type" required>
+            </div>
+
+            <div class="input-field">
+              <label>ID Number</label>
+              <input type="number" placeholder="Enter ID number" required>
+            </div>
+
+            <div class="input-field">
+              <label>Issued Authority</label>
+              <input type="text" placeholder="Enter issued authority" required>
+            </div>
+
+            <div class="input-field">
+              <label>Issued State</label>
+              <input type="text" placeholder="Enter issued state" required>
+            </div>
+
+            <div class="input-field">
+              <label>Issued Date</label>
+              <input type="date" placeholder="Enter your issued date" required>
+            </div>
+
+            <div class="input-field">
+              <label>Expiry Date</label>
+              <input type="date" placeholder="Enter expiry date" required>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="sumbit" onclick="redirectToHome()"">
+          <span class=" btnText">Submit</span>
+        <i class="uil uil-navigator"></i>
+      </button>
+
+    </form>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="JavaScript/script.js"></script>
+</body>
+
+</html>
